@@ -27,12 +27,10 @@
   left: var(--header-logo-link-left);
 }
 
-/* Nav link */
 .nav .nav-link {
   position: relative;
 }
 
-/* Before pseudo-elements of nav links */
 .nav .nav-link::before {
   content: "";
   position: absolute;
@@ -43,7 +41,6 @@
   height: 20%;
 }
 
-/* Hover state for nav item before pseudo-element */
 .nav .nav-item:hover .nav-link::before {
   background-color: var(--color-primary);
   width: 100%;
